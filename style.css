@@ -228,7 +228,6 @@ ul li a {
   transition: opacity 0.3s ease-in-out;
   border-top: 3px solid #03a4e3;
 }
-
 .mega-column {
   width: 18%;
 }
@@ -423,7 +422,7 @@ ul li a {
   text-align: left;
   font-size: 21px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 10px 0px 20px;
+  padding: 30px 0px 20px;
   line-height: 35px;
 }
 
@@ -464,9 +463,40 @@ section1 h2 {
   section1 h2 {
     font-size: 40px; /* Adjust font size for smaller screens */
   }
-  #s2-content {
-    border: 1px solid black;
+  #s1-content {
+    border-radius: 7px;
+    box-shadow: 0 0 3px grey;
     margin: 0 1rem;
+  }
+  #s2-content {
+    border-radius: 7px;
+    box-shadow: 0 0 3px grey;
+    margin: 0 1rem;
+  }
+  #s3-content {
+    border-radius: 7px;
+    box-shadow: 0 0 3px grey;
+    margin: 0 1rem;
+  }
+  #s4-content {
+    border-radius: 7px;
+    box-shadow: 0 0 3px grey;
+    margin: 0 1rem;
+  }
+  #line1 {
+    display: none;
+  }
+  #line2 {
+    display: none;
+  }
+  #line3 {
+    display: none;
+  }
+  #line4 {
+    display: none;
+  }
+  #line5 {
+    display: none;
   }
 }
 
@@ -511,16 +541,17 @@ section1 h2 {
   border-radius: 5px;
 }
 .grid-item p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 1rem;
   margin-top: 0.7rem;
   text-align: left;
-  font-size: 1.5rem;
-  font-family: gilroy;
+  font-size: 1.4rem;
 }
 .grid-item h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2rem;
   letter-spacing: -1px;
+  text-align: left;
 }
 
 #line2 {
@@ -570,12 +601,12 @@ section1 h2 {
 }
 
 .expertise-left h3 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-top: 1.5rem;
 }
 
 .expertise-left p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .expertise-right {
@@ -600,7 +631,7 @@ section1 h2 {
 }
 
 .card-content h3 {
-  font-size: 28px;
+  font-size: 19px;
   font-weight: bold;
   color: #374046;
 }
@@ -670,7 +701,7 @@ section1 h2 {
   margin-top: 40px;
 }
 .about-text {
-  color: #03a4e3;
+  color: #03a4e3 !important;
   font-weight: 600;
   font-size: 20px !important;
 }
@@ -698,7 +729,8 @@ section1 h2 {
   }
 
   .expertise-left p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    color: #3a3a3a;
   }
 
   /* Cards ko 2 Columns, 3 Rows me Divide Kiya */
@@ -713,7 +745,7 @@ section1 h2 {
     width: 100%;
     height: auto;
     padding: 20px;
-    text-align: center;
+    text-align: left;
   }
 
   .expert-card img {
@@ -810,8 +842,8 @@ section1 h2 {
 }
 
 #c1-right img {
-  height: 300px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   border-radius: 25px;
   margin-right: 2rem;
 }
@@ -1032,20 +1064,22 @@ section5 button {
 }
 @media (max-width: 480px) {
   .revenue-ptext {
-    font-size: 16px; /* Further reduce font size for small screens */
+    font-size: 1.2rem; /* Further reduce font size for small screens */
     padding: 10px 20px 20px; /* Further reduce padding for small screens */
     line-height: 28px; /* Adjust line height for smaller text */
   }
 }
 .v3s-parag0apg {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 21px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0px 200px 0px;
   line-height: 35px;
 }
-
+.text1_sect p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .grid-item a {
   color: #222;
   text-decoration: none;
@@ -2342,23 +2376,23 @@ h1 {
   }
 
   #s3-card2 {
-    width: 85%;
-    height: 350px;
+    width: 85% !important;
+    #s3-card2;
   }
 
   #s3-card3 {
-    width: 85%;
-    height: 350px;
+    width: 85% !important;
+    #s3-card2;
   }
 
   #s3-card4 {
-    width: 85%;
-    height: 350px;
+    width: 85% !important;
+    #s3-card2;
   }
 
   #s3-card5 {
-    width: 85%;
-    height: 350px;
+    width: 85% !important;
+    #s3-card2;
   }
 
   .v3s-parag0apg {
@@ -2449,16 +2483,16 @@ h1 {
   margin-top: -34rem;
 }
 #image-left img {
-  height: 60vh;
+  height: 65vh;
   margin-left: 1rem;
-  margin-top: -9rem;
+  margin-top: -10rem;
   z-index: -999;
   width: 90%;
 }
 #image-right img {
-  margin-top: -9rem;
+  margin-top: -10rem;
   z-index: -999;
-  height: 60vh;
+  height: 65vh;
   width: 100%;
 }
 .banner-section-serc-page {
@@ -2523,6 +2557,11 @@ h1 {
 @media (max-width: 768px) {
   #s1-content {
     display: flex;
+    gap: 10;
+    row-gap: 1rem;
+  }
+  .grid-item h3 {
+    margin-left: 1rem;
   }
   #s2-content {
     display: flex;
@@ -2628,6 +2667,8 @@ h1 {
   }
   #s1-content {
     margin-top: 10px;
+    gap: unset;
+    row-gap: 1rem;
     display: flex;
     flex-wrap: wrap;
   }
@@ -2669,6 +2710,9 @@ h1 {
   }
   .expertise-left h3 {
     text-align: left;
+  }
+  .expertise-left h3 {
+    font-size: 1.5rem;
   }
   .expertise-left p {
     text-align: left;
@@ -2718,8 +2762,20 @@ h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px 0px 0px 0px;
   }
+  .R1_cards p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+  }
+  .R2_cards p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+  }
+  .R3_cards p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+  }
   .text1_sect p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: left;
     line-height: 1.5;
   }
@@ -2741,6 +2797,8 @@ h1 {
   }
   #s3-card1 {
     flex-direction: column;
+    width: 80%;
+    display: none;
   }
   #c1-right img {
     height: 150px;
@@ -2785,13 +2843,13 @@ h1 {
   }
 
   #s3-seo-card {
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
     padding: 0 0.5rem 1rem 0.5rem;
   }
   #s3-seo-card2 {
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
     padding: 0 0.5rem 1rem 0.5rem;
   }
   #s3-ppc-cont {
@@ -2897,7 +2955,34 @@ h1 {
 .blog-card a:hover {
   text-decoration: underline;
 }
-
+#teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.member {
+  margin: auto;
+  display: flex;
+  /* background-color: red; */
+  height: 75vh;
+  width: 65vw;
+  box-shadow: 0 1px 3px 1px lightgrey;
+  border-radius: 5px;
+}
+.member-left {
+  display: flex;
+}
+#member-content {
+  width: 25vw;
+  height: 100%;
+  background-color: red;
+}
+#member-image {
+  height: 100%;
+  width: 40vw;
+  background-color: rgb(0, 255, 38);
+}
 /* Footer Section */
 footer {
   /* background-color: #333; */
@@ -2930,10 +3015,56 @@ footer {
   #line5 {
     margin-top: 1.5rem;
   }
+  .banner-section-serc-page {
+    min-height: 26vh !important;
+  }
 }
 
 @media (max-width: 480px) {
   .blog-card {
     width: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  #s3-seo-card2 {
+    height: auto;
+    width: 43%;
+  }
+  #s3-seo-card {
+    height: auto;
+    width: 43%;
+  }
+  #image-left img {
+    display: none;
+  }
+  #image-right img {
+    margin: auto;
+  }
+  #image-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #s1-img-container {
+    justify-content: center;
+  }
+  .banner-section-serc-page {
+    min-height: 115vh;
+  }
+  #s3-cards {
+    width: auto;
+  }
+  .Video_logo_section1 {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Content_image {
+    flex-wrap: wrap;
+  }
+  .text1_sect {
+    max-width: unset;
+  }
+  .Cards_Result {
+    flex-direction: column;
   }
 }
